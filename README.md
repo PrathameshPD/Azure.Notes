@@ -1,0 +1,2 @@
+# Azure.Notes
+Exploring Azure 
