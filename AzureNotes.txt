@@ -1,0 +1,35 @@
+Azure -> Free Account
+
+Explore the Azure Services [18 Categories] (200 Services)
+
+Azure Machine Learning.
+-> After Sign up
+-> launch Studio
+-> Notebooks / Automated ML / Designer
+
+-> Will go to Designer
+  -> Create a new pipeline using classic Prebuilt Components
+-> Click on Data  + 
+Create Data Asset 
+
+-> Select a Database
+Blob Storage
+
+Then Upload Files
+-> Data Types-Data Source-Source Type-File or Folder Selection-Settings-Schema
+_. Next
+-> Recap-Create Drag into pipeline [we can change the draft Name]
+-> Go to the components -> Drag & Drop -|
+
+-. Click on right side setting 
+-> Select compute type -> [compute Instance]
+-> Configure required settings -> [Compute Name] [Virtual Machine Type] CPU 
+-> Select Virtual Machine Size
+-> Startup and shutdown Schedule.
+
+Go to the setting [Select Azure ML Compute Instance] [Created]<-
+->Submit
+Set up pipeline Job -> Create New -> Basic Data Summarization
+-> Submit 
+
+-> Right Click on Drag & Drop we can check [Data Profiling] [Analysis]
