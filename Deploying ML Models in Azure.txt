@@ -1,0 +1,37 @@
+Deploying Machine Learning in Azure Cloud
+[Usually Takes lots of time for Deployment]
+
+Step:1 Portal Azure
+Step:2 Create a resource
+-> Subscription [Trail]
+-> Resource Group [AQI]
+
+Instance Details
+-> Name [AQItrail2]
+-> Publish [Code]
+-> Runtime Stack [Python 3.7]
+-> Operating System [Linux]
+-> Region [Central US]
+-> Linux Plan (central US)
+
+App service plan
+-> Linux plan (central US) [ASP-AQI-BC06(F1)]
+-> SKU  + Size [Free F1 1gb memory]
+
+-> Review + Create
+(previous)
+
+[Deployment Takes Time]
+
+-> Go To Resources -> Deployment Center
+   -. 1- Source Control 2- Build Provider 3- Configure 4- Summary
+
+#Github -> App Service Build Service ->> Code
+                                        -. Organization (PrathameshPD)
+                                        _. Repository (AzureDeployment)
+                                        _. Branch (Master)
+                                        ->: FINISH
+Deployment Process will start >>>>
+
+-> Overview -> URL : Link
+(All other information will be shown)..
